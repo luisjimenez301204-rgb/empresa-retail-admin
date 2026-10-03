@@ -1,0 +1,50 @@
+
+---
+
+# `.gitignore`
+
+```gitignore
+# ==========================================
+# ARCHIVOS SQL TEMPORALES Y RESPALDOS
+# ==========================================
+
+# Respaldos de bases de datos
+*.bak
+*.backup
+*.dump
+
+# Dumps SQL generados automáticamente
+*_dump.sql
+*dump_*.sql
+backup_*.sql
+*_backup.sql
+
+# Archivos SQL temporales
+*.tmp.sql
+*.temp.sql
+
+# Archivos temporales de configuración de MySQL
+*.cnf
+
+# Logs
+*.log
+
+
+# ==========================================
+# ARCHIVOS DEL SISTEMA
+# ==========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ==========================================
+# EDITORES Y ENTORNOS DE DESARROLLO
+# ==========================================
+
+.vscode/
+.idea/
